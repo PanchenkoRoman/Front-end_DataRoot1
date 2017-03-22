@@ -1,0 +1,423 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1280px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*-------HEADER-----------*/
+
+header{
+	background: url(../img/Livello-1.png) no-repeat top center;
+	background-size: cover;	
+	height: 745px;
+	padding-top: 40px;
+}
+.header-menu{
+	text-align: center;
+	padding-left: 116px;
+}
+.menu li{
+	display: inline-block;
+	font-family: GothamRounded;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-right: 100px;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	letter-spacing: 2px;
+}
+
+.menu li:hover{
+	color: #16a085;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.header-link{
+	position: relative;
+    bottom: 10px;
+}
+.header-link:first-child{
+    left: 41px;
+}
+.header-link:nth-child(2){
+    left: 2px;
+}
+.header-link-design{
+    right: 5px;
+}
+.header-link:last-child{
+    left: -31px;
+}
+
+.header-main{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: GothamRounded;
+	color: white;
+	margin-top: 238px;
+}
+.main-str{
+	font-size: 37px;
+	font-weight: 700;
+	letter-spacing: 5.23px;
+	margin-left: 7px;
+
+}
+.secondary-str{
+	font-size: 16px;
+	font-family: GothamRoundedMedium;
+	text-transform: lowercase;
+	letter-spacing: 2.55px;
+    line-height: 40px;
+    margin-left: 3px;
+
+}
+button{
+	display: inline-block;
+	width: 166px;
+	height: 49px;
+	margin-top: 15px;
+	background-color: #16a085;
+	border-radius: 3px;
+	border: none;
+	font-size: 13px;
+	line-height: 49px;
+	text-align: center;
+	color: white;
+	font-family: GothamRounded;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	transition-property: background opacity;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+button:hover{
+	background-color: #232D2A;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.header-buttom{
+	margin-top: 221px;
+	text-align: center;
+}
+
+.header-buttom ul li{
+	display: inline-block;
+}
+
+.flickr{
+	margin:0 12.9px;
+}
+
+
+/*--------------SMART----------*/
+.smart{
+	height: 494px;
+	background-color: #f5f6f7;
+	text-align: left;
+	background-image: url(..//img/iPhone.png);
+	background-repeat: no-repeat;
+    background-position: 80% -44%;
+    padding-left: 128px;
+}
+.smart-content{
+	width: 429px;
+	padding-top: 111px;
+}
+.smart-content-big{
+	color: #16a085;
+	font-family: GothamRounded;
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.21px;
+}
+.smart-content-small{
+	display: inline-block;
+    margin-top: 38px;
+    font-family: GothamRoundedLight;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 1.45px;
+}
+.smart-content button{
+	margin-top: 43px;
+	width: 192px;
+	height: 51px;
+	line-height: 51px;
+}
+.bold{
+	font-family: GothamRounded;
+}
+.design{
+	height: 558px;
+	padding-left: 128px;
+	padding-top: 141px;
+}
+.carusel-design{
+	height: 415px;
+
+}
+
+.carusel-design-img{
+	width: 640px;
+	float: left;
+}
+.carusel-design-content{
+	width: 512px;
+	float: right;
+
+}
+.back{
+	background-image:url(../img/e.png);
+	background-repeat: no-repeat;
+	background-position: -4px 3px;
+	height: 415px;
+	width: 640px;
+}
+.carusel-design-content .smart-content-big{
+	font-size: 18px;
+}
+
+.carusel-design-content .smart-content-small{
+    margin-top: 35px;
+    line-height: 22px;
+}
+
+.carusel-design-content button{
+	margin-top: 39px;
+	width: 192px;
+	height: 51px;
+}
+.arrows{
+	margin-top: 38px; 
+}
+.num{
+	font-family: GothamRoundedMedium;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.arrow{
+	display: inline-block;
+}
+.arrow:last-child{
+	margin-left: 15px;
+}
+
+
+
+
+/*--------------------------COMMUNITY--------*/
+
+.community{
+	margin-top: -2px;
+	height: 483px;
+	background-color: #f5f6f7;
+	padding:95px 128px 0;
+
+}
+.community-arrows{
+	text-align: right;
+}
+.community-str{
+	display: inline-block;
+	width: 178px;
+	text-align: center;
+	margin-right: 80px;
+	margin-top: 44px;
+}
+.community-carusel ul li{
+	display: inline-block;
+}
+.community-carusel ul li:first-child{
+	margin-right: 21px;
+}
+.community-carusel{
+	display: flex;
+	margin-top: 7px;
+}
+.community-str-main{
+	margin-top: 25px;
+    letter-spacing: 1px;
+	display: inline-block;
+	color: #373737;
+	font-family: GothamRounded;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}.community-str-sec{
+    display: inline-block;
+    margin-top: 20px;
+    color: #373737;
+    font-family: GothamRoundedMedium;
+    font-size: 9px;
+    letter-spacing: 2.2px;
+    line-height: 12px;
+}
+
+/*------SUBSCRIBE-------*/
+
+.sub{
+	height: 790px;
+	background:url(../img/sub.png);
+	text-align: center;
+	padding-top: 349px;
+}
+.sub-str{
+	color: white;
+	font-family: GothamRounded;
+    font-size: 23.5px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+form{
+	margin-top: 33px;
+    margin-right: 64px;
+}
+input[type='email']{
+
+	width: 280px;
+	height: 60px;
+	padding-left: 20px;
+	background-color: white;
+	border-radius: 3px 0px 0px 3px;
+	border: none;
+	display: inline-block;
+}
+
+input[placeholder]{
+	color: black;
+	font-family: GothamRoundedMedium;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+::-webkit-input-placeholder {color:black;}
+
+.check{
+	display: inline-block;
+	position: relative;
+    left: 140px;
+    bottom: 60px;
+}
+
+
+/*-------------DOWNLOAD--------*/
+
+.download{
+	height: 396px;
+	background-color: #f5f6f7;
+	padding-top: 90px;
+	text-align: center;
+}
+.download-main{
+	color: #373737;
+	font-family: GothamRounded;
+	font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.download-sec{
+    margin-top: 9px;
+    display: inline-block;
+    text-align: center;
+    width: 845px;
+    color: #373737;
+    font-family: GothamRoundedMedium;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.button-cont{
+	margin-top: 40px;
+}
+.button{
+	font-family: GothamRounded;
+    text-transform: uppercase;
+    width: 296px;
+    height: 56px;
+    background-color: #1abc9c;
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+    display: inline-block;
+    line-height: 56px;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    letter-spacing: 3.2px;
+    padding-left: 30px;
+}
+
+.button:first-child{
+	margin-right: 22px;
+}
+.think{
+	display: inline-block;
+	float: right;
+}
+
+
+/*---------FOOOTER---------*/
+
+footer{
+	height: 130px;
+	padding-top: 44px;
+	padding-left: 127px;
+}
+
+footer ul li{
+	display: inline-block;
+	font-family: GothamRounded;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	color: #373737;
+}
+.footer-left{
+	float: left;
+}
+
+.sl{
+	display: inline-block;
+	color: #16a085;
+	margin: 0 4px;
+}
+
+.copy{
+	margin-top: 22px;
+    font-family: GothamRounded;
+    font-size: 13px;
+    color: #373737;
+    letter-spacing: 2.7px;
+}
+.footer-right{
+	float: right;
+	margin-right: 128px;
+    margin-top: -6px;
+
+}
