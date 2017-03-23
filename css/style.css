@@ -7,6 +7,7 @@ html {
 
 a{
 	text-decoration: none;
+	color: inherit;
 }
 
 .container{
@@ -55,16 +56,16 @@ header{
 	position: relative;
     bottom: 10px;
 }
-.header-link:first-child{
+.header-link-first{
     left: 41px;
 }
-.header-link:nth-child(2){
+.header-link-2{
     left: 2px;
 }
 .header-link-design{
     right: 5px;
 }
-.header-link:last-child{
+.header-link-last{
     left: -31px;
 }
 
@@ -261,11 +262,11 @@ button:hover{
 }
 .community-str-main{
 	margin-top: 25px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 	display: inline-block;
 	color: #373737;
 	font-family: GothamRounded;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 700;
 	text-transform: uppercase;
 }.community-str-sec{
